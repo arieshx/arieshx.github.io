@@ -5,12 +5,12 @@ category: cuda
 description: cuda 指南
 ---
 
-## cuda架构特点
+### cuda架构特点
 
 - CPU：擅长流程控制和逻辑处理，不规则数据结构，不可预测存储结构，单线程程序，分支密集型算法
 - GPU：擅长数据并行计算，规则数据结构，可预测存储模式
 
-## cuda线程模型
+### cuda线程模型
 
 下面我们介绍CUDA的线程组织结构。首先我们都知道，线程是程序执行的最基本单元，CUDA的并行计算就是通过成千上万个线程的并行执行来实现的。下面的机构图说明了GPU的不同层次的结构。
 
@@ -57,7 +57,7 @@ Grid   ------  GPU
 - 一个kernel其实由一个grid来执行，一个kernel一次只能在一个GPU上执行
 - 一个block只会由一个sm调度，一个sm可以同时拥有多个block，但是要序列执行。
 
-## cuda内存模型
+### cuda内存模型
 
 CUDA中的内存模型分为以下几个层次：
 
@@ -69,7 +69,7 @@ CUDA中的内存模型分为以下几个层次：
 
 线程访问这几类存储器的速度是register > local memory >shared memory > global memory
 
-## cuda编程模型
+### cuda编程模型
 
 **host和device**
 
@@ -88,12 +88,9 @@ CUDA中的内存模型分为以下几个层次：
 - __device__ 定义在device，运行在device
 - __host__  定义在host，运行在host
 
-## 写代码
+### 写代码
 
 cu文件是用nvcc去编译执行的，因为其中有kernel函数，所有一定要用nvcc。
-
-
-
 
 
 https://www.cnblogs.com/skyfsm/p/9673960.html
