@@ -1,3 +1,12 @@
+layout: post
+title: c++ 编程要点
+category: c++
+description: c++ 编程需要注意的地方
+
+---
+
+
+
 ##  关于类
 
 ### 实例化
