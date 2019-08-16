@@ -1,3 +1,5 @@
+---
+
 layout: post
 title: c++ 编程要点
 category: c++
