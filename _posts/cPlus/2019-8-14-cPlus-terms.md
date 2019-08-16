@@ -1,3 +1,5 @@
+---
+
 layout: post
 title: c++ 设计条款
 category: c++
