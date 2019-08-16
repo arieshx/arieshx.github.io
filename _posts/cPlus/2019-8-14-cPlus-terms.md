@@ -2,7 +2,7 @@
 
 layout: post
 title: c++ 设计条款
-category: c++
+category: cPlus
 description: c++ 编程设计遵守的条款
 
 ---

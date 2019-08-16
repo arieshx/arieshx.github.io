@@ -2,7 +2,7 @@
 
 layout: post
 title: c++ 编程要点
-category: c++
+category: cPlus
 description: c++ 编程需要注意的地方
 
 ---
